@@ -1,0 +1,19 @@
+.Teacher {
+    background-color: royalblue;
+    color: gold;
+    width: 400px;
+
+    display: flex;
+    flex-direction: column;
+    /* Y */
+    justify-content: center;
+    /* X */
+    align-items: center;
+    margin: 10px;
+    border: 2px dashed darkblue;
+    border-radius: 25px;
+}
+
+.fontWeight900 {
+    font-weight: 900;
+}

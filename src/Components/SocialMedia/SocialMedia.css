@@ -1,0 +1,6 @@
+.SocialMedia {}
+
+
+.SocialMedia>* {
+    margin: 10px;
+}
