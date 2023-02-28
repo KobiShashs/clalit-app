@@ -2,16 +2,16 @@ import Map from "../Map/Map";
 import School from "../School/School";
 import Teacher from "../Teacher/Teacher";
 import "./Main.css";
+import image from '../../Assets/Images/logo.svg';
+import { Outlet } from "react-router-dom";
+import Routing from "../Routing/Routing";
 
 function Main(): JSX.Element {
 
     return (
         <div className="Main">
-            <Teacher name={"Amit"} description={"C# & Web Expert"} years={20} />
-            <Teacher name={"Kobi"} description={"React & Java"} years={5} />
-
-            <School street={"Homma Vemigdal"} houseNumber={29} city={"TLV"} zip={12345} phone={"*6444"} />
-            <Map/>
+            <Routing/>
+            <Outlet/>
         </div>
     );
 }

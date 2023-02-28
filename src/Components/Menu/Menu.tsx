@@ -1,10 +1,13 @@
+import { Link } from "react-router-dom";
 import "./Menu.css";
 
 function Menu(): JSX.Element {
     return (
         <div className="Menu">
-            <a href="#">Teachers</a>
-            <a href="#">School</a>
+            <Link to="/home">Home</Link>
+            <Link to="/teachers">Teachers</Link>
+            <Link to="/school">School</Link>
+            <Link to="/map">Map</Link>
         </div>
     );
 }

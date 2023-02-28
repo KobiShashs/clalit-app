@@ -6,6 +6,7 @@ interface TeacherProps {
 }
 function Teacher(props: TeacherProps): JSX.Element {
     return (
+
         <div className="Teacher">
             <p className="fontWeight900">{props.name}</p>
             <p>{props.description}</p>

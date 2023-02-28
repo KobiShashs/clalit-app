@@ -15,7 +15,7 @@ function App() {
             <Header />
             <Menu />
             <Main />
-            <Footer/>
+            <Footer />
 
 
             {/* <School street={'Homma VeMidal'} houseNumber={29} city={'Tel Aviv'} zip={6777129}
